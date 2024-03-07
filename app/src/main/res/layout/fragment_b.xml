@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FragmentB">
+    tools:context=".app1.FragmentB">
 
     <Button
         android:id="@+id/back_to_fragment_A_button"

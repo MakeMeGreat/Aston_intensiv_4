@@ -9,4 +9,9 @@
     <string name="back_to_b">Back to B</string>
     <string name="app_1_button">App 1</string>
     <string name="app_2_button">App 2</string>
+    <string name="image_uri">Image URI</string>
+    <string name="user_name">User name</string>
+    <string name="user_lastname">User lastname</string>
+    <string name="user_number">User number</string>
+    <string name="update_user">Update User</string>
 </resources>

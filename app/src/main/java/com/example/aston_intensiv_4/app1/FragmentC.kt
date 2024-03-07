@@ -1,9 +1,11 @@
-package com.example.aston_intensiv_4
+package com.example.aston_intensiv_4.app1
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.aston_intensiv_4.BaseFragment
+import com.example.aston_intensiv_4.R
 import com.example.aston_intensiv_4.databinding.FragmentCBinding
 
 private const val PHRASE_KEY = "PHRASE_KEY"
@@ -31,7 +33,7 @@ class FragmentC : BaseFragment<FragmentCBinding>(
 
         binding.navigateToFragmentDButton.setOnClickListener {
             parentFragmentManager.beginTransaction()
-                .replace(R.id.fragment_container_view, FragmentD())
+                .replace(R.id.fragment_container_view, FragmentD.newInstance())
                 .addToBackStack(null)
                 .commit()
         }
