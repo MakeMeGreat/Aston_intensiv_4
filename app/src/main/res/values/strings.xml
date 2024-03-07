@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Aston_intensiv_4</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigate_to_b">Navigate to B</string>
+    <string name="back_to_a">Back to A</string>
+    <string name="navigate_to_c">Navigate to C</string>
+    <string name="navigate_to_d">Navigate to D</string>
+    <string name="back_to_b">Back to B</string>
+    <string name="app_1_button">App 1</string>
+    <string name="app_2_button">App 2</string>
+    <string name="image_uri">Image URI</string>
+    <string name="user_name">User name</string>
+    <string name="user_lastname">User lastname</string>
+    <string name="user_number">User number</string>
+    <string name="update_user">Update User</string>
 </resources>
